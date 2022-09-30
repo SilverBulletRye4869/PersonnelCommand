@@ -2,3 +2,8 @@ name: PersonnelCommand
 version: '${project.version}'
 main: silverassist.personnelcommand.PersonnelCommand
 api-version: 1.18
+
+commands:
+  hane:
+    description: 人事コマンド
+    usage: /hane <ban/pardon> <プレイヤー> <理由>
