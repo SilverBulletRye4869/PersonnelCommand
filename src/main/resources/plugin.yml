@@ -1,0 +1,4 @@
+name: PersonnelCommand
+version: '${project.version}'
+main: silverassist.personnelcommand.PersonnelCommand
+api-version: 1.18
