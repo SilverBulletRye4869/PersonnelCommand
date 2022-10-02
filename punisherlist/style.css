@@ -6,3 +6,15 @@ th, td{
     padding: 10px 20px;
     border: 1px solid #000;
 }
+
+#loading{
+    text-align: center;
+}
+#loading_gif{
+    width: 20%;
+    
+}
+
+#main{
+    display: none;
+}

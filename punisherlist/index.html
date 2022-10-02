@@ -8,10 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <thead id="puni_th"></thead>
-        <tbody id="puni_td"></tbody>
-    </table>
+    <div id="loading">
+        <img src="loading.gif" alt="loading" id="loading_gif">
+    </div>
+    <div id="main">
+        <table>
+            <thead id="puni_th">
+                <tr>
+                    <th>ID</th>
+                    <th>UUID</th>
+                    <th>内容</th>
+                    <th>理由</th>
+                    <th>期限</th>
+                    <th>状態</th>
+                </tr>
+            </thead>
+            <tbody id="puni_td"></tbody>
+        </table>
+    </div>
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
     <script src="config.js"></script>
